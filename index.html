@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Frontend Mentor | Blog preview card</title>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            figtree: ["Figtree", "sans-serif"],
+          }
+        }
+      }
+    }
+  </script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body class="font-figtree flex flex-col bg-[rgb(245,222,87)] items-center min-h-[100vh]">
+  <div class="container bg-white mx-auto mt-auto mb-4 max-w-[375px] max-h-100 rounded-lg md:rounded-[30px] border-black flex flex-col border border-sm p-6 shadow-black shadow-[10px_10px_0_0_black]">
+    <img class="mx-auto mb-4 rounded rounded-md md:rounded-lg" src="./assets/images/illustration-article.svg"/>
+    <p class="bg-[rgb(245,222,87)] p-2 text-sm text-gray-950 rounded-md text-center font-[800] max-w-[30%] mb-2">Learning</p>
+
+    <p class="text-sm text-gray-950 font-[400] text-wrap mb-4 ">Published 21 Dec 2023</p>
+
+    <p class="text-gray-950 text-md md:text-lg font-[800] mb-4 hover:text-[rgb(245,222,87)] transition">HTML & CSS foundations</p>
+
+    <p class="text-sm font-light text-gray-500 mb-4 pr-4">These languages are the backbone of every website, defining structure, content, and presentation. </p>
+
+    <div class="flex jusify-center">
+      <img class="flex self-start max-w-10" src="./assets/images/image-avatar.webp" alt="greg"/>
+      <p class="profile text-sm text-gray-950 font-[800] mx-4 my-auto">Greg Hooper</p>
+    </div>
+
+  </div>
+  <div class="attribution mb-auto">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://davindicator.vercel.app">Davindicator</a>.
+  </div>
+</body>
+
+</html>
