@@ -39,7 +39,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- [Tailwind](https://reactjs.org/) - CSS library
+- Tailwind - CSS library
 
 ### What I learned
 Font Inclusion and effects
